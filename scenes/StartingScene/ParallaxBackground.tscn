@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/Metro/Background.png" type="Texture" id=1]
+[ext_resource path="res://assets/Metro/background_1.png" type="Texture" id=2]
+[ext_resource path="res://scenes/StartingScene/scripts/BackgroundParallax.gd" type="Script" id=3]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+script = ExtResource( 3 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 240, 0 )
+
+[node name="Background" type="Sprite" parent="ParallaxLayer"]
+position = Vector2( 928, 368 )
+scale = Vector2( 3.83333, 2.67647 )
+texture = ExtResource( 1 )
+offset = Vector2( -2, -1.5 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 128.3, 0 )
+
+[node name="Background1" type="Sprite" parent="ParallaxLayer2"]
+position = Vector2( 832, 416 )
+scale = Vector2( 5.72222, 3.52222 )
+texture = ExtResource( 2 )
+offset = Vector2( -1.5, -1 )
+
+[node name="Background2" type="Sprite" parent="ParallaxLayer2"]
+position = Vector2( 1296, 448 )
+scale = Vector2( 4.55556, 3.13889 )
+texture = ExtResource( 2 )

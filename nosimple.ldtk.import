@@ -1,0 +1,18 @@
+[remap]
+
+importer="LDtk.import"
+type="PackedScene"
+path="res://.import/nosimple.ldtk-b6680374926ac99a3ac9669a0305a94e.tscn"
+
+[deps]
+
+source_file="res://nosimple.ldtk"
+dest_files=[ "res://.import/nosimple.ldtk-b6680374926ac99a3ac9669a0305a94e.tscn" ]
+
+[params]
+
+Import_Collisions=true
+Import_Custom_Entities=true
+Import_Metadata=true
+Import_YSort_Entities_Layer=false
+Post_Import_Script=""
